@@ -15,8 +15,8 @@ exec &> /root/stackscript.log
 export DEBIAN_FRONTEND=noninteractive
 
 [ ${URL:-} ] && {
-cd /root/LinuxServerSetup/
-curl -L $URL | tar xz -C /root/LinuxServerSetup --strip-components 1
+  cd /root/LinuxServerSetup/
+  curl -L $URL | tar xz -C /root/LinuxServerSetup --strip-components 1
 }
 
 cd /root/LinuxServerSetup/scripts
