@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #<UDF name="scriptversion" Label="Script edition" oneOf="Latest,Development" example="Script version." default="Latest"/>
-#<UDF name="url" default="" Label="Url link to a your own configuration as a tarball" example="https://github.com/linode-scripts/Linux-Server-Setup-conf-test/tarball/master"/>
+#<UDF name="url" default="https://github.com/linode-scripts/Linux-Server-Setup-conf-test/tarball/master" Label="Url link to a your own configuration as a tarball" example="https://github.com/linode-scripts/Linux-Server-Setup-conf-test/tarball/master"/>
 #
 
 set -e # Exit immediately if a command exits with a non-zero status.
